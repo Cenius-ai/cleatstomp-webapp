@@ -1,0 +1,20 @@
+# Python build artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Test and tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local wear log — created at runtime in whichever directory you use the tool
+cleatstomp.json
+
+# Editor/OS noise
+.DS_Store
+.idea/
+.vscode/

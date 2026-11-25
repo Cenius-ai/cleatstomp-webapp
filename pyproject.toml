@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cleatstomp"
+version = "1.0.0"
+description = "Log bicycle pedal cleat float wear and get replacement advice (stdlib-only CLI)."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "CleatStomp" }]
+keywords = ["cycling", "cleats", "cli", "wear-tracking"]
+dependencies = []
+
+[project.scripts]
+cleatstomp = "cleatstomp:main"
+
+[tool.setuptools]
+py-modules = ["cleatstomp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

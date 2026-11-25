@@ -1,0 +1,4 @@
+# CleatStomp runtime dependencies: none — the tool is Python standard library only.
+# The only declared dependency is the test runner used by `python3 -m pytest`.
+# A bounded range keeps the pin honest across released 8.x/9.x pytest lines.
+pytest>=8.0,<10
